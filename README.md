@@ -18,6 +18,7 @@ Thanks to Cibellem for alot of code framework: https://github.com/cibellem/daypl
 
 Link to Project: https://vidfinnx.github.io/PlannerX/
 
+![image](https://user-images.githubusercontent.com/79023746/116039653-dbfe3880-a61f-11eb-9013-1086b8aa2770.png)
 
 
 
