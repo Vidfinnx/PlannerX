@@ -1,0 +1,142 @@
+/* Reset Body Default Styles */
+body {
+  margin: 0;
+  padding: 0;
+background-image: url("Postits.png");
+background-position:fixed;
+
+  
+  
+}
+
+/* Top Header Stylings */
+.Bigheader {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  
+
+}
+
+/* H1 Alignment */
+h1 {
+  margin:auto;
+}
+
+
+/* H4 Header Margins */
+h4 {
+  margin:auto;
+  font-style:italic;
+
+}
+
+/* Save Button Stylings */
+button {
+  border-style:none;
+  background-color:black;
+  cursor:pointer;
+  color:white;
+}
+
+/* Save Button Positioning */
+.butz {
+  margin-left: 90%;
+  margin-top: -5.5%;
+  max-width: 3%;
+  margin-bottom: 5%;
+}
+
+/* Input field Stylings */
+.form-control {
+  box-sizing: border-box;
+  padding: 2%;
+  width: 78%;
+  font-size:20px;
+  resize:none;
+}
+
+/* Input Field Alignments */
+.container{
+  text-align:center;
+}
+
+
+
+/* P tag styling */
+p {
+  font-family: 'Questrial', sans-serif;   
+  text-align: center;
+  margin-top: 15px;
+  font-size:3.25em;
+ }
+
+ /* Date and Time Styling */
+.todaysDate {
+
+  font-size:1em;
+  
+}
+
+
+/* Current Hour Background Color */
+.bg-red {
+  background-color: rgb(255, 1, 1);
+  border-style: dashed;
+  border-width: 5px;
+  border-color:black;
+}
+
+/* Upcoming Hour Background Color */
+.bg-green {
+
+  background-color: rgba(8, 131, 8, 0.788);
+  border-style: dashed;
+  border-width: 5px;
+  border-color:black;
+}
+
+/* Past Hour Background Color */
+.bg-gray {
+  background-color: #cfdce9da;
+  border-style: dashed;
+  border-width: 5px;
+  border-color:black;
+}
+  
+
+
+
+/* 
+These rules take effect when the browser's width
+is either 767px or less. */
+
+@media screen and (max-width: 767px) {       
+
+  .Bigheader{
+      height: 300px;
+      
+  }
+  .butz{
+  margin-top: -11.5%;
+  }
+
+
+}
+
+/*
+These rules take effect when the browser's width
+is either 400px or less.
+*/
+@media screen and (max-width: 400px) {
+
+  .Bigheader{
+      height: 300px;
+      
+  }
+ 
+ 
+}
